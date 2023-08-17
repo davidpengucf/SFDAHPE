@@ -31,3 +31,26 @@ If you find this code useful for your research, please cite our paper
 
 Borrow a lot from [**RegDA**](https://github.com/thuml/Transfer-Learning-Library/tree/master) and [**UniFrame**](https://github.com/VisionLearningGroup/UDA_PoseEstimation).
 
+
+```
+@InProceedings{RegDA,
+    author    = {Junguang Jiang and
+                Yifei Ji and
+                Ximei Wang and
+                Yufeng Liu and
+                Jianmin Wang and
+                Mingsheng Long},
+    title     = {Regressive Domain Adaptation for Unsupervised Keypoint Detection},
+    booktitle = {CVPR},
+    year = {2021}
+}
+
+@InProceedings{kim2022unified,
+  title={A Unified Framework for Domain Adaptive Pose Estimation},
+  author={Kim, Donghyun and Wang, Kaihong and Saenko, Kate and Betke, Margrit and Sclaroff, Stan},
+  booktitle = {The European Conference on Computer Vision (ECCV)},
+  year = {2022} 
+ }
+
+```
+
