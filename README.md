@@ -2,11 +2,14 @@
 
 
 
-### Prerequisites:
+### Packages Prerequisites:
 - python == 3.6.8
 - pytorch ==1.1.0
 - torchvision == 0.3.0
 - numpy, scipy, sklearn, PIL, argparse, tqdm
+
+### Datasets Preparations:
+Please follow the instructions from [**RegDA**](https://github.com/thuml/Transfer-Learning-Library/tree/master) 
 
 
 ### Training:
@@ -17,12 +20,14 @@ python train_sfda.py ../RegDA_tokenpose/data/RHD ../RegDA_tokenpose/data/H3D_cro
 If you find this code useful for your research, please cite our paper
 
 ```
-@misc{peng2023sourcefree,
-      title={Source-free Domain Adaptive Human Pose Estimation}, 
-      author={Qucheng Peng and Ce Zheng and Chen Chen},
-      year={2023},
-      eprint={2308.03202},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}}
+@article{peng2023source,
+  title={Source-free Domain Adaptive Human Pose Estimation},
+  author={Peng, Qucheng and Zheng, Ce and Chen, Chen},
+  journal={arXiv preprint arXiv:2308.03202},
+  year={2023}
+}
 ```
+### Acknowledge
+
+Borrow a lot from [**RegDA**](https://github.com/thuml/Transfer-Learning-Library/tree/master) and [**UniFrame**](https://github.com/VisionLearningGroup/UDA_PoseEstimation).
 
